@@ -1,0 +1,303 @@
+header{
+    width: 100%;
+    height: 65vh;
+    background:url("img/background.png");
+    overflow: hidden;
+    background-size: cover;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    margin: 5px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5;
+}
+.nav{
+    width: 100%;
+    height: 70px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.intro{
+    color: white;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.intro h1{
+    font-size: 45px;
+}
+.intro p{
+    font-size: 20px;
+}
+#about{
+    padding: 10px ;
+}
+.info{
+    font-weight: bold;
+    text-align: center;
+    color:#e73c3c;
+
+}
+.about-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left{
+    flex-basis:50%;
+}
+.about-left img{
+    width: 80%;
+    padding: 50px;
+    height: 350px;
+}
+
+.about-right{
+    flex-basis:50% ;
+}
+.about-right p{
+    font-size: 20px;
+    text-align: justify;
+    font-weight: bold;
+}
+
+.btn{
+    border: none;
+    color: white;
+    background: black;
+    padding: 8px;
+
+}
+#skills{
+    padding: 10px;
+
+}
+.skills-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills-box{
+    flex-basis: 25%;
+    text-align: center;
+    margin-top: 20px;
+}
+.skills-box img{
+
+width: 60%;
+}
+
+#services{
+    padding: 10px;
+}
+.services-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.services-box{
+    flex-basis: 25%;
+    text-align: center;
+    padding :20px;
+    margin-top: 20px;
+}
+
+.services-box img{
+    width: 60%;
+    }
+   
+    .contact-row{
+    align-items: center;
+ }
+.contact-left-col{
+    flex-basis: 50%;
+
+}
+.contact-left-col form{
+    text-align: center;
+}
+.contact-left-col form input{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.contact-left-col form textarea{
+width:50%;
+padding:10px;
+}
+.contact-left-col form h2{
+  margin:20px ;
+}
+
+.skill-container{
+  padding: 12px;
+
+}
+.SKILLS-ITEMS{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills{
+  width: 250px;
+  height: 10px;
+  background-color: red;
+
+}
+ 
+  .box{
+    height: 70vh;
+  }
+  .final{
+    height: 100hv;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+  }
+  .container{
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    background: white;
+    margin: 0 15px;
+    padding: 10px 20px;
+    border-radius: 7px;
+    align-items: center;
+    text-align: center;
+  }
+  .container .skill-box{
+    width: 100%;
+    
+    margin: 25px 0;
+  }
+  .skill-box .title{
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color:black;
+  }
+  .skill-box .skill-bar{
+    height: 8px;
+    
+    width: 100%;
+    margin-top: 6px;
+    border-radius: 6px;
+    background:gray;
+  
+  }
+  .skill-bar .skill-per{
+    position: relative;
+    display: block;
+    height: 100%;
+    width: 95%;
+    border-radius: 6px;
+    background: red;
+    animation: progress 0.4s ease-in-out forwards;
+    opacity: 0;
+  }
+  
+  .skill-per.css{
+    width: 80%;
+  }
+  .skill-per.html{
+    width: 95%;
+  }
+  .skill-per.javascript{
+    width: 70;
+  }
+  .skill-per.c{
+    width: 85;
+  }
+  .skill-per.cc{
+    width: 80%;
+  }
+  
+  @keyframes progress{
+    0%{
+      width: 0;
+      opacity: 0;
+    }
+    100%{
+      
+      opacity: 1;
+    }
+  }
+  .skill-per .tooltip{
+    position: absolute;
+    right: -14px;
+    top: -28px;
+    font-size: 10px;
+    font-weight: 500;
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 3px;
+    background:  black;
+    z-index: -1;
+  
+  }
+  .detail li{
+    text-align: center;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    
+}
+.detail a{
+  color: white;
+
+}
+#services{
+  background-color: yellow;
+}
+
+
+.services-row{
+  background-color:yellow ;
+}
+#footer{
+  background:black;
+  color:white;
+  background-size: cover;
+}
+.footer-content{
+  font-weight: bold;
+      text-align: center;
+      color:white;
+  
+}
+.media-icons{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.media-icons a{
+  position: relative;
+  color:white;
+  font-size: 40px;
+  text-align: center;
+  transition: 0.3s;
+  transition-property: transform;
+}
+.media-icons a:not(last-chlid){
+  margin-right:40px;
+}
+.footer-bottom{
+  background: #111;
+  width: 100%;
+  padding: 2px 0px;
+  color: white;
+  text-align: center;
+}
